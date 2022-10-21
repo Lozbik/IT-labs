@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>Internet technologies</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header {
+  background: #FFF4ED;
+  padding: 100px 20px;
+  text-align: center;
+}
+.header h1 {
+  font-family: 'Righteous', cursive;
+  position: relative;
+  color: #3ba1d8; 
+  display: inline-block;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  font-size: 3em;
+  padding: 11px 60px;
+  margin: 0; 
+  line-height: 1;
+}
+.header h1:before, .header h1:after {
+  content: ""; 
+  position: absolute;
+  top: 0;
+  width: 30px;
+  height: 100%;
+  border-left: 2px solid;
+  border-right: 2px solid;
+  background: repeating-linear-gradient(180deg, transparent, transparent 2px, #3CA1D9 2px, #3CA1D9 4px);
+}
+.header h1:before {left: 0;}
+.header h1:after {right: 0;}
+@media (max-width: 420px) {
+  .header h1 {font-size: 2em;}
+}
+
+
+.navbar{
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: #333; /* Dark background color */
+}
+.navbar> a {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+}
+.navbar a.right{
+    float: right; /* Float a link to the right */
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+    background-color: #ddd; /* Grey background color */
+    color: black; /* Black text color */
+}
+.footer{
+    padding: 10px; /* Some padding */
+    text-align: center;
+    background: #ddd; /* Grey background */
+    font-size: 8px;
+    position:absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+
+}
+.tabs {
+  display: flex;
+  flex-direction: column;
+}
+.tabs>#general:target~.navbar>a[href="#general"],
+.tabs>#excard:target~.navbar>a[href="#excard"],
+.tabs>#lab1:target~.navbar>a[href="#lab1"],
+.tabs>#lab2:target~.navbar>a[href="#lab2"],
+.tabs>#lab3:target~.navbar>a[href="#lab3"]{
+    background-color: #3ba1d8cc;
+    cursor: default;
+}
+.tabs>div:not(.navbar) {
+  display: none;
+  order: 1;
+}
+.tabs>div:target {
+  display: block;
+}
+/*cssssex for text*/
+.lbh h3 {
+  padding: 0 0 6px 10px;
+  border-left: 10px solid #3ba1d8;
+  border-bottom: 2px solid #3ba1d8;
+}
+</style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Интернет технологии</h1>
+    </div>
+    <div class="tabs">
+        <div id="general">
+          <p>Настоящая веб-страница содержит материалы выполнения комплексного лабораторного практикума по дисциплине "Интернет-технологии", читаемой магистрам, обучающимся ряду магисторских программ по направлению подготовки 09,04,01 «Информатика и вычислительная техника».</p>
+          <p>Веб-страница содержит описание лабораторных работ, перечень задач, а также ссылки на материалы выполненных лабораторных работу.</p>
+          <p>Веб-страница рекомендована для изучения преподавателям, а также студентам, обучающимися по другим направлениям подготовки в качестве эталона.</p>
+        </div>
+        <div id="excard">
+            <div class="lbh"><h3>Описание</h3></div>
+            <b>Методом научного тыка был выбран билет номер X</b>
+        </div>
+        <div id="lab1">
+            <div class="lbh"><h3>Описание</h3></div>
+                <b>GitHub — крупнейший веб-сервис для хостинга IT-проектов и их совместной разработки. Веб-сервис основан на системе контроля версий Git и разработан на Ruby on Rails и Erlang компанией GitHub, Inc.</b>
+            <div class="lbh"><h3>Задачи</h3></div>
+                <ul>
+                    <li>Регистрация на Github: <a href="https://github.com/Lozbik">Страница пользователя</a></li>
+                    <li>Создание репозитория: <a href="https://github.com/Lozbik/IT-labs"> IT-labs</a></li>
+                    <li>Создание личной страницы.</li>
+                    <li>Размещение исходного кода страницы: <a href="https://github.com/Lozbik/IT-labs/blob/main/index.html"> index.html</a></li>
+                    <li>Размещение странички на хостинге: <a href="https://Lozbik.github.io/IT-labs/">Персональная страница</a></li>
+                </ul>
+        </div>      
+        
+        <div id="lab2">
+            <div class="lbh"><h3>Описание</h3></div>
+            <b>В рамках данной лабораторной работы необходимо в команде разработать проект и создать Landing page с описанием самого проекта.</b>
+            <div class="lbh"><h3>Задачи</h3></div>
+                <ul>
+                    <li>Собрать команду для разработки веб-приложения и распределить роли.</li>
+                    <li>Создать репозиторий проекта: <a href="https://github.com/Lozbik/IT-labs"> "Чисто и тОчка"</a></li>
+                    <li>Итог: <a href="https://github.com/Lozbik/IT-labs">ссылка на веб-приложение</a></li>
+                </ul>
+        </div>
+
+
+        <div id="lab3">
+            <div class="lbh"><h3>Описание</h3></div>
+            <b>В рамках данной лабораторной работы необходимо настроить сеть в Сisco Packet Tracer. Packet Tracer — симулятор сети передачи данных, выпускаемый фирмой Cisco Systems. Позволяет делать работоспособные модели сети, настраивать маршрутизаторы и коммутаторы, взаимодействовать между несколькими пользователями.</b>
+        </div>
+  
+        <div class="navbar">
+          <a href="#general">Главная</a>
+          <a href="#excard">Билет</a>
+          <a href="#lab1">Лабораторная работа 1</a>
+          <a href="#lab2">Лабораторная работа 2</a>
+          <a href="#lab3">Лабораторная работа 3</a>
+        </div>
+      </div>
+
+    <div class="footer">
+        <h2>Автор: Пискунов Максим Петрович ИДМ-22-05</h2>
+        <h2>Зафронтендено специально для лабораторых работ по интернет технологиям</h2>
+    </div>
+</body>
+</html>
