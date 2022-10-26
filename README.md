@@ -23,4 +23,4 @@
 
 ## ✅ Экзаменационные билет №XX
 
-Ответ на экзаменационный билет доступен по ссылке: [Билет-XX](https://otkritkis.com/wp-content/uploads/2022/07/hk5de.gif)
+Ответ на экзаменационный билет доступен по ссылке: [Билет-13](https://otkritkis.com/wp-content/uploads/2022/07/hk5de.gif)
