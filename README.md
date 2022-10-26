@@ -23,7 +23,7 @@
 
 ## ✅ Лабораторная работа № 3
 1. Настроить сеть в Сisco Packet Tracer. Packet Tracer
-2. Отчет по лабораторной работе доступен по ссылке: [Отчет-лб3](https://github.com/Lozbik/IT-labs/blob/master/Laboratornaya_rabota_4.docx)
+2. Отчет по лабораторной работе доступен по ссылке: [Отчет-лб3](https://disk.yandex.ru/i/xVmlN7Z9GsLSfg)
 
 ## ✅ Экзаменационные билет №13
 
