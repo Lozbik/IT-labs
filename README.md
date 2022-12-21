@@ -27,5 +27,5 @@
 
 ## ✅ Экзаменационные билет №13
 
-Ответ на экзаменационный билет доступен по ссылке: [Билет13](https://github.com/stankin/inet-2022/wiki/exam13)
+Ответ на экзаменационный билет доступен по ссылке: [Билет13](https://github.com/stankin/inet-2022/wiki/exam13)<br>
 Ссылка на сравнение ревизий: [Compare](https://github.com/stankin/inet-2022/wiki/exam13/_compare/d9e4b379ded353d77157a97421cbd217f1d2cb07)
