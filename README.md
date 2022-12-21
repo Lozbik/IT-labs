@@ -18,13 +18,14 @@
 
 Выполняется лабораторная в команде "Чисто и тОчка"
 
-1. Репозиторий проекта доступен по ссылке: [репозиторий](https://github.com/MakyHaky/ChistoTochka)
-2. Веб-страница с описанием проекта доступна по ссылке: 
+1. Репозиторий проекта доступен по ссылке: [Чисто и тОчка](https://github.com/MakyHaky/ChistoTochka)
+2. Веб-страница с описанием проекта доступна по ссылке: [Landing page](https://github.com/MakyHaky/ChistoTochka/wiki)
 
 ## ✅ Лабораторная работа № 3
 1. Настроить сеть в Сisco Packet Tracer. Packet Tracer
-2. Отчет по лабораторной работе доступен по ссылке: [Отчет-лб3](https://disk.yandex.ru/i/xVmlN7Z9GsLSfg)
+2. Отчет по лабораторной работе доступен по ссылке: [Лабораторная](https://disk.yandex.ru/i/xVmlN7Z9GsLSfg)
 
 ## ✅ Экзаменационные билет №13
 
-Ответ на экзаменационный билет доступен по ссылке: [Билет-13](https://github.com/stankin/inet-2022/wiki/exam13)
+Ответ на экзаменационный билет доступен по ссылке: [Билет13](https://github.com/stankin/inet-2022/wiki/exam13)
+Ссылка на сравнение ревизий: [Compare](https://github.com/stankin/inet-2022/wiki/exam13/_compare/d9e4b379ded353d77157a97421cbd217f1d2cb07)
